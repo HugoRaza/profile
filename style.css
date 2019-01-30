@@ -89,8 +89,8 @@ a:hover{
 #img-profile {
   width: 120px;
   border-style: solid;
-  border-width: 2px;
-  border-color: rgba(107, 191, 189, 0,4);
+  border-width: 1px;
+  border-color: #384047;
 }
 
 .movie-poster{
@@ -127,5 +127,44 @@ a:hover{
 }
 #movies td{
   padding: 10px;
+}
+
+#content{
+  margin-left: 120px;
+}
+
+#sidebar {
+  background-color: #384047;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 120px;
+  text-align: center;
+}
+
+#page-container {
+  margin-left: 300px;
+}
+
+#sidebar ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#sidebar li {
+  margin-top:50px;
+  margin-bottom: 50px;
+}
+
+#sidebar a {
+  margin-top: 100px;
+  text-decoration: none;
+  font-size: 25px;
+  color:#788188;
+}
+
+#sidebar a:hover {
+  color: white;
 }
 
