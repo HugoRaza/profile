@@ -88,9 +88,9 @@ a:hover{
 
 #img-profile {
   width: 120px;
-  border-style: solid;
+  /*border-style: solid;
   border-width: 1px;
-  border-color: #384047;
+  border-color: #384047;*/
 }
 
 .movie-poster{
@@ -166,5 +166,14 @@ a:hover{
 
 #sidebar a:hover {
   color: white;
+}
+
+@media (max-width: 768px) {
+  #content{
+    margin-left: 0px;
+  }
+  #sidebar {
+    display: none;
+  }
 }
 
